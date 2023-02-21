@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <link rel="stylesheet" href="activity.css">
+        <meta name="description" content="This is a super cool website made by Shaamer">
+        <meta name="author" content="Shaamer Kumar">
+        <title>This is Shaamer's really cool page</title>
+        <link rel="icon" type="image/x-icon" href="/images/globe.ico">
+        
     </head>
     <body>
+        <div class="container">
+            <header id="header">
+              <h1>Website Title</h1>
+            </header>
+
+            <div class="flex-container">
+
+            <div class="sidebar" id="sidebar">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <button onclick="green()">Change to Dark Mode</button>
+              <button onclick="green2()">Change to Light Mode</button>
+<script>
+    function green() {
+        var el = document.getElementById("main");
+        var el1 = document.getElementById("footer");
+        var el2 = document.getElementById("header");
+        var el3 = document.getElementById("sidebar");
+        el.style.backgroundColor = "#8B8000";
+        el1.style.backgroundColor = "#8b0000";
+        el2.style.backgroundColor = "#8B4000";
+        el3.style.backgroundColor = "#023020";
+    }
+    function green2() {
+        var el = document.getElementById("main");
+        var el1 = document.getElementById("footer");
+        var el2 = document.getElementById("header");
+        var el3 = document.getElementById("sidebar");
+        el.style.backgroundColor = "#FFFF00";
+        el1.style.backgroundColor = "#FF0000";
+        el2.style.backgroundColor = "#FFA500";
+        el3.style.backgroundColor = "#90EE90";
+    }
+</script>
+            </div>
+            <main id="main">
+              <img src="image1.jpg" alt="Image 1">
+              <img src="image2.jpg" alt="Image 2">
+              <img src="image3.jpg" alt="Image 3">
+              <img src="image4.jpg" alt="Image 4">
+              <img src="image5.jpg" alt="Image 5">
+              <img src="image6.jpg" alt="Image 6">
+            </main>
+        </div>
+            <footer id="footer">
+              <p>Footer text goes here</p>
+            </footer>
+          </div>
+
         
     </body>
 </html>

@@ -17,6 +17,23 @@ p {
   background-color: green;
   margin-bottom: 20px;
 }
+.wrapper2 {
+  display: flex;
+  height: 60px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_red {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  background-color: red;
+}
 
 /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
 
@@ -39,10 +56,87 @@ p {
   flex: 1;
   flex-direction: row-reverse;
 }
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  background-color: red;
+}
+
+.redExample3 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: red;
+
+}
+
+.blueExample3 {
+  width: 80px;
+
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  
+  background-color: blue;
+
+}
+.blueExample4 {
+  width: 100%;
+  background-color: green;
+  height: 20px;
+  border-bottom: 20px solid blue;
+  border-top: 20px solid blue;
+
+}
+.blueExample5 {
+  width: 100%;
+  background-color: blue;
+  margin-top:20px;
+  height: 20px;
+
+}
+.greenExample4 {
+  width: 100%;
+  background-color: green;
+  
+}
+
 
 .blueExample2 {
   width: 80px;
   background-color: blue;
 }
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
+
+.orangeExample2 {
+  width: 80px;
+  background-color: orange;
+
+}
+.greenExample2 {
+  flex:1;
+  background-color: green;
+}
+
+.orangeExample3 {
+  
+  flex:1;
+  background-color: orange;
+
+}
+.greenExample3 {
+  width: 20px;
+
+  background-color: green;
+}
+
 
 /* TODO: Add CSS for the rest of your solution below */
